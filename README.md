@@ -3,6 +3,7 @@
 A machine learning-powered web application that recommends products based on user sentiment extracted from reviews. Built with Python, Flask, and NLP techniques.
 
 **Project Structure**
+
 ├── app.py                          # Flask web application
 ├── model.py                        # Machine learning model code
 ├── templates/                      # HTML templates for the frontend
