@@ -9,12 +9,19 @@ A machine learning-powered web application that recommends products based on use
 ├── model.py                        # Machine learning model code
 
 ├── templates/                      # HTML templates for the frontend
+
 ├── pickle/                         # Serialized model/data files
+
 ├── sample30.csv                    # Review dataset
+
 ├── requirements.txt                # Python dependencies
+
 ├── runtime.txt                     # Python runtime version (for deployment)
+
 ├── Procfile                        # Deployment instructions (Heroku)
+
 ├── README.md                       # Readme file
+
 ├── Sentiment_Based_Product_Recommendation_... # Jupyter notebook (EDA/modeling)
 
 **Features**
