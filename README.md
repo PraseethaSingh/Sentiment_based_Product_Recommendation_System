@@ -1,20 +1,66 @@
 **Sentiment Based Product Recommendation System**
 
-The e-commerce business is quite popular today. Here, you do not need to take orders by going to each customer. A company launches its website to sell the items to the end consumer, and customers can order the products that they require from the same website. Famous examples of such e-commerce companies are Amazon, Flipkart, Myntra, Paytm and Snapdeal.
+A machine learning-powered web application that recommends products based on user sentiment extracted from reviews. Built with Python, Flask, and NLP techniques.
 
-Suppose you are working as a Machine Learning Engineer in an e-commerce company named 'Ebuss'. Ebuss has captured a huge market share in many fields, and it sells the products in various categories such as household essentials, books, personal care products, medicines, cosmetic items, beauty products, electrical appliances, kitchen and dining products and health care products.
+**Project Structure**
+├── app.py                          # Flask web application
+├── model.py                        # Machine learning model code
+├── templates/                      # HTML templates for the frontend
+├── pickle/                         # Serialized model/data files
+├── sample30.csv                    # Review dataset
+├── requirements.txt                # Python dependencies
+├── runtime.txt                     # Python runtime version (for deployment)
+├── Procfile                        # Deployment instructions (Heroku)
+├── README.md                       # Readme file
+├── Sentiment_Based_Product_Recommendation_... # Jupyter notebook (EDA/modeling)
 
-With the advancement in technology, it is imperative for Ebuss to grow quickly in the e-commerce market to become a major leader in the market because it has to compete with the likes of Amazon, Flipkart, etc., which are already market leaders.
+**Features**
 
-As a senior ML Engineer, you are asked to build a model that will improve the recommendations given to the users given their past reviews and ratings.
+Analyzes sentiment from product reviews using classification model.
 
-In order to do this, you planned to build a sentiment-based product recommendation system, which includes the following tasks:
+Recommends products based on collaborative filtering (using similarity matrix) 
 
-1. Data sourcing and sentiment analysis
-2. Building a recommendation system
-3. Improving the recommendations using the sentiment analysis model
-4. Deploying the end-to-end project with a user interface
+Combining the sentiment and collaborative filtering recommendationdations
 
- **The sentiment based product recommendation system with Flask app is hosted on Heroku :**
+Simple and responsive UI using Flask API.
+
+Deployment using Heroku.
+
+**Installation**
+https://github.com/PraseethaSingh/Sentiment_based_Product_Recommendation_System
+
+**Dataset**
+
+sample30.csv: Contains review text data used for training/testing the sentiment analysis model.
+
+**Machine Learning Model**
+
+-Built using NLP techniques (e.g., TF-IDF, sentiment scoring).
+
+-Data Serialized and saved in the pickle/ directory.
+
+-Loaded dynamically in the Flask app for real-time predictions.
+
+**Deployment**
+
+**The sentiment based product recommendation system with Flask app is hosted on Heroku :**
  
  **https://product-recommendation-app-0944ff2ab516.herokuapp.com/**
+
+**Tools Required**
+
+Python 3.8+
+Flask
+Pandas, NumPy
+Scikit-learn
+Jupyter (for notebook usage)
+
+**Author**
+
+Praseetha Kumarsingh
+
+GitHub : https://github.com/PraseethaSingh/Sentiment_based_Product_Recommendation_System
+
+
+
+ 
