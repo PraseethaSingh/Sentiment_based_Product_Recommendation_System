@@ -16,5 +16,6 @@ In order to do this, you planned to build a sentiment-based product recommendati
 4. Deploying the end-to-end project with a user interface
 
    
-*The recommendation system with Flask app is hosted on :
-https://product-recommendation-app-0944ff2ab516.herokuapp.com/*
+*The recommendation system with Flask app is hosted on :*
+
+*https://product-recommendation-app-0944ff2ab516.herokuapp.com/*
