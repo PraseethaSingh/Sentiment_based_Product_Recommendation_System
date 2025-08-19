@@ -32,7 +32,7 @@ The application is deployed as a Flask web app, with the trained model serialize
 
 ├── README.md                       # Readme file
 
-├── Sentiment_Based_Product_Recommendation_... # Jupyter notebook (EDA/modeling)
+├── Sentiment_Based_Product_Recommendation_... # Jupyter notebook (EDA, Preprocessing, Text processing, buiding different models and evaluation, building collaorative filtering models and evaluation, combining sentiments and collaborative filtering techniques, fine tuning the recommendation system)
 
 **Features**
 
