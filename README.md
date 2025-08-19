@@ -1,6 +1,12 @@
 **Sentiment Based Product Recommendation System**
 
-A machine learning-powered web application that recommends products based on user sentiment extracted from reviews. Built with Python, Flask, and NLP techniques.
+This is ML based application that uses Natural Language Processing (NLP) to analyze customer reviews and determine their sentiment (positive or negative). Based on this sentiment, the system recommends products that align with user preferences and opinions expressed in textual reviews.
+
+Unlike traditional recommendation systems that rely purely on numerical ratings or purchase history, this system goes a step further by understanding the emotional context behind user feedback, making recommendations more personalized and relevant.
+
+It combines Natural Language Processing (NLP) with traditional recommendation logic to enhance product suggestions using user review sentiment. The system preprocesses textual review data using tokenization, stopword removal, and vectorization (e.g., TF-IDF), then classifies sentiment using a machine learning model (e.g., Logistic Regression or Naive Bayes or Random Forest). Sentiment polarity is used to filter or rank product recommendations based on user preferences.
+
+The application is deployed as a Flask web app, with the trained model serialized using pickle for real-time inference. It is fully compatible with cloud deployment platforms like Heroku, enabling scalable, interactive user experiences.
 
 **The sentiment based product recommendation system with Flask app is hosted on Heroku :**
 
