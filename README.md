@@ -2,6 +2,10 @@
 
 A machine learning-powered web application that recommends products based on user sentiment extracted from reviews. Built with Python, Flask, and NLP techniques.
 
+**The sentiment based product recommendation system with Flask app is hosted on Heroku :**
+
+**https://product-recommendation-app-0944ff2ab516.herokuapp.com/**
+
 **Project Structure**
 
 ├── app.py                          # Flask web application
@@ -53,9 +57,9 @@ sample30.csv: Contains review text data used for training/testing the sentiment 
 
 **Deployment**
 
-**The sentiment based product recommendation system with Flask app is hosted on Heroku :**
+The sentiment based product recommendation system with Flask app is hosted on Heroku :
  
- **https://product-recommendation-app-0944ff2ab516.herokuapp.com/**
+ https://product-recommendation-app-0944ff2ab516.herokuapp.com/
 
 **Tools Required**
 
