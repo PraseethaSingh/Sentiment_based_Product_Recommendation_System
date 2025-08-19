@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Based Product Recommendation System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>
+        body {
+            /* background-color: #f1f1f1; */
+            background: #56CCF2;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        .card {
+            -webkit-box-shadow: 1px 1px 5px -2px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 1px 5px -2px rgba(0,0,0,0.75);
+            box-shadow: 1px 1px 5px -2px rgba(0,0,0,0.75);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section my-4">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="card mb-5 mt-3">
+                        <div class="card-header">
+                            <div class="row d-flex justify-content-start m-3">
+                                <a class="btn btn-outline-primary" href="/">
+                                    <i class="bi bi-arrow-left"></i>
+                                    Back To List
+                                </a>
+                            </div>
+                            <div class="row d-flex justify-content-center m-4">
+                                <h1 class="m-3 card-title text-center text-primary">Top 5 Recommendations for user: {{ username }}</h1>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <!-- Header -->
+                            <div class="row font-weight-bold h5 text-dark" style="background-color: #e6f2ff; padding: 12px; margin: 0;">
+                                <div class="col-md-5">Product Name</div>
+                                <div class="col-md-4">Manufacturer</div>
+                                <div class="col-md-3">Recommendation Score/Hybrid Score</div>
+                            </div>
+                            <hr class="mt-0">
+
+                            <!-- Data Rows -->
+                            {% for product in productList %}  
+                                <div class="row px-4 py-2 font-weight-bold">
+                                    <div class="col-md-5">{{ product[0] }}</div>
+                                    <div class="col-md-4">{{ product[1] }}</div>
+                                    <div class="col-md-3 d-flex justify-content-center">{{ product[2] }}</div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
