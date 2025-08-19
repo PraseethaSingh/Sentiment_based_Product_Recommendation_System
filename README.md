@@ -1,6 +1,6 @@
 **Sentiment Based Product Recommendation System**
 
-This is ML based application that uses Natural Language Processing (NLP) to analyze customer reviews and determine their sentiment (positive or negative). Based on this sentiment, the system recommends products that align with user preferences and opinions expressed in textual reviews.
+This is a ML based application that uses Natural Language Processing (NLP) to analyze customer reviews and determine their sentiment (positive or negative). Based on this sentiment, the system recommends products that align with user preferences and opinions expressed in textual reviews.
 
 Unlike traditional recommendation systems that rely purely on numerical ratings or purchase history, this system goes a step further by understanding the emotional context behind user feedback, making recommendations more personalized and relevant.
 
