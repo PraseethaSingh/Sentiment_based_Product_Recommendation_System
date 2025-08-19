@@ -14,25 +14,26 @@ The application is deployed as a Flask web app, with the trained model serialize
 
 **Project Structure**
 
-├── app.py                          # Flask web application
+├── **app.py**                          # Flask web application
 
-├── model.py                        # Machine learning model code
+├── **model.py**                        # Machine learning model code
 
-├── templates/                      # HTML templates for the frontend
+├── **templates/**                      # HTML templates for the frontend
 
-├── pickle/                         # Serialized model/data files
+├── **pickle/**                         # Serialized model/data files
 
-├── sample30.csv                    # Review dataset
+├── **sample30.csv**                    # Review dataset
 
-├── requirements.txt                # Python dependencies
+├── **requirements.txt**                # Python dependencies
 
-├── runtime.txt                     # Python runtime version (for deployment)
+├── **runtime.txt**                     # Python runtime version (for deployment)
 
-├── Procfile                        # Deployment instructions (Heroku)
+├── **Procfile**                        # Deployment instructions (Heroku)
 
-├── README.md                       # Readme file
+├── **README.md**                       # Readme file
 
-├── Sentiment_Based_Product_Recommendation_... # Jupyter notebook (EDA, Preprocessing, Text processing, buiding different models and evaluation, building collaorative filtering models and evaluation, combining sentiments and collaborative filtering techniques, fine tuning the recommendation system)
+├── **Sentiment_Based_Product_Recommendation_System.ipynb** 
+                                         # Jupyter notebook (EDA, Preprocessing, Text processing, buiding different models                                               and evaluation, building collaorative filtering models and evaluation, combining                                              sentiments and collaborative filtering techniques, fine tuning the recommendation                                             system)
 
 **Features**
 
