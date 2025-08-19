@@ -5,7 +5,9 @@ A machine learning-powered web application that recommends products based on use
 **Project Structure**
 
 ├── app.py                          # Flask web application
+
 ├── model.py                        # Machine learning model code
+
 ├── templates/                      # HTML templates for the frontend
 ├── pickle/                         # Serialized model/data files
 ├── sample30.csv                    # Review dataset
